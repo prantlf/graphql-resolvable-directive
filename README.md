@@ -3,6 +3,8 @@
 [![NPM version](https://badge.fury.io/js/graphql-resolvable-directive.png)](http://badge.fury.io/js/graphql-resolvable-directive)
 [![Build Status](https://travis-ci.org/prantlf/graphql-resolvable-directive.png)](https://travis-ci.org/prantlf/graphql-resolvable-directive)
 [![Coverage Status](https://coveralls.io/repos/github/prantlf/graphql-resolvable-directive/badge.svg?branch=master)](https://coveralls.io/github/prantlf/graphql-resolvable-directive?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c4391fcc43853219c914/maintainability)](https://codeclimate.com/github/prantlf/graphql-resolvable-directive/maintainability)
+[![codebeat badge](https://codebeat.co/badges/9dc77208-2d0e-4b53-a749-c77a6e44b1e0)](https://codebeat.co/projects/github-com-prantlf-graphql-resolvable-directive-master)
 [![devDependency Status](https://david-dm.org/prantlf/graphql-resolvable-directive/dev-status.svg)](https://david-dm.org/prantlf/graphql-resolvable-directive#info=devDependencies)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
