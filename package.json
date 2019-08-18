@@ -1,6 +1,6 @@
 {
   "name": "graphql-resolvable-directive",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Supports GraphQL custom directives that hook into the field execution.",
   "author": {
     "name": "Ferdinand Prantl",
