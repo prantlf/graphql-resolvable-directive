@@ -42,11 +42,11 @@
     "branches": 100
   },
   "devDependencies": {
-    "ava": "2.2.0",
-    "graphql": "14.4.2",
-    "graphql-field-visitor": "0.0.2",
+    "ava": "2.4.0",
+    "graphql": "14.5.7",
+    "graphql-field-visitor": "0.0.3",
     "nyc": "14.1.1",
-    "standard": "13.1.0"
+    "standard": "14.3.1"
   },
   "keywords": [
     "graphql",

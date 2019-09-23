@@ -68,9 +68,7 @@ test('supportResolvableDirectives is a function', test =>
 test('supportResolvableDirectives sets field resolvers', test => {
   const schema = createSchema([notDirective], { truthy })
   const fields = collectFields(schema)
-  fields.forEach(field => {
-    test.is(typeof field.resolve, 'function')
-  })
+  fields.forEach(field => test.is(typeof field.resolve, 'function'))
 })
 
 test('field execution without directives is unchanged', async test => {
@@ -87,7 +85,7 @@ test('directives without hooks do not change the field execution result', async 
   test.is(data.truthy, true)
 })
 
-test('directives without hooks can change the field execution result', async test => {
+test('directives with hooks can change the field execution result', async test => {
   const schema = createSchema([notDirective], { truthy })
   const { data, errors } = await graphql(schema, '{ truthy @not }')
   test.is(typeof errors, 'undefined')
